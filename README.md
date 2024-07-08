@@ -19,4 +19,3 @@ a login modal window, and animations.
 Feel free to submit issues and pull requests for improvements.
 # Visit Website
  https://shubhamsharma0801.github.io/Flipkart-Clone-front-end-/
-

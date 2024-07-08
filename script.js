@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 });
 document.addEventListener("DOMContentLoaded", function() {
-    // Hover effect for section 4 items
+    // Adding Hover effects
     const section4Items = document.querySelectorAll('.section-4-item');
 
     section4Items.forEach(item => {
@@ -49,11 +49,10 @@ document.addEventListener("DOMContentLoaded", function() {
     const section4List = document.querySelector('.section-4-list');
     const section4Items = Array.from(document.querySelectorAll('.section-4-item'));
     
-    // Create a wrapper for the items to handle continuous scrolling
+    // Creating a wrapper for the items to handle continuous scrolling
     const section4ListWrapper = document.createElement('div');
     section4ListWrapper.classList.add('section-4-list-wrapper');
-    
-    // Append original items twice to create the seamless effect
+
     section4Items.forEach(item => {
         section4ListWrapper.appendChild(item.cloneNode(true));
     });
@@ -61,7 +60,7 @@ document.addEventListener("DOMContentLoaded", function() {
         section4ListWrapper.appendChild(item.cloneNode(true));
     });
     
-    // Clear the original list and append the new wrapper
+    // Clearing the original list and appending the new wrapper
     section4List.innerHTML = '';
     section4List.appendChild(section4ListWrapper);
 });

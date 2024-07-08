@@ -18,5 +18,3 @@ a login modal window, and animations.
 ## Contributing
 Feel free to submit issues and pull requests for improvements.
 
-## License
-This project is licensed under the MIT License.
